@@ -1,0 +1,29 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Jun 15 13:08:40 2018
+
+@author: arpitansh
+"""
+
+'''
+Write a program that accepts sequence of lines as input and prints the lines 
+after making all characters in the sentence capitalized.
+Suppose the following input is supplied to the program:
+Hello world
+Practice makes perfect
+Then, the output should be:
+HELLO WORLD
+PRACTICE MAKES PERFECT
+'''
+
+upp = []
+while True:
+    s = input('Enter ur text here: ')
+    if s:
+        upp.append(s.upper())
+        
+    else:
+        break
+for text in upp:
+    print(text)
